@@ -31,10 +31,6 @@ body {
     padding: 1.75rem 1rem;
 }
 
-/* img {
-    display: block;
-} */
-
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -69,7 +65,7 @@ h1 {
     color: var(--dark-space-blue);
 }
 
-.text__button-container p {
+.text__button-container article {
     font-size: var(--body);
     color: var(--gunmetal);
     line-height: 26px;
@@ -86,4 +82,51 @@ h1 {
     outline: none;
     border: none;
     align-self: flex-start;
+}
+
+.right-side {
+    padding: 1.5rem 1.25rem;
+    background-color: var(--dark-space-blue);
+    gap: 35px;
+}
+
+.right-side h2 {
+    font-size: var(--heading-m);
+    color: var(--yellow);
+}
+
+.right-side .content {
+    gap: 31px;
+}
+
+.col {
+    gap: 29px;
+}
+
+.col .info {
+    gap: 0.5rem;
+}
+
+.col .info h3 {
+    font-size: var(--heading-s);
+    color: var(--offwhite);
+    cursor: pointer;
+}
+
+.col .info h3:hover {
+    color: var(--yellow);
+}
+
+.col .info p {
+    font-size: var(--body);
+    color: var(--silver);
+}
+
+hr {
+    border-color: var(--gunmetal);
+}
+
+
+.bottom {
+    gap: 2rem;
 }
