@@ -130,3 +130,43 @@ hr {
 .bottom {
     gap: 2rem;
 }
+
+.bottom .trend {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.trend img {
+    width: 100px;
+    height: 129px;
+}
+
+.trend .num-details {
+    gap: 0.75rem;
+}
+
+.trend .num-details h3 {
+    font-size: var(--heading-m);
+    color: var(--silver);
+}
+
+.trend .num-details .details {
+    gap: 9px;
+    cursor: pointer;
+}
+
+.trend .num-details .details h4 {
+    color: var(--dark-space-blue);
+    font-size: var(--heading-xs);
+
+}
+
+.trend .num-details .details p {
+    font-size: var(--body);
+    color: var(--gunmetal);
+}
+
+.trend .num-details .details h4:hover {
+    color: var(--light-vermillion);
+}
