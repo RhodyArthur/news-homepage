@@ -31,6 +31,15 @@ body {
     padding: 1.75rem 1rem;
 }
 
+/* img {
+    display: block;
+} */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,4 +48,42 @@ header {
 
 header nav {
     display: none;
+}
+
+main, .top {
+    gap: 4rem;
+}
+
+.left-side, .text__button-container {
+    gap: 1.5rem;
+}
+
+.text-container {
+    gap: 1rem;
+}
+
+h1 {
+    font-size: var(--heading-l);
+    font-weight: 800;
+    line-height: 40px;
+    color: var(--dark-space-blue);
+}
+
+.text__button-container p {
+    font-size: var(--body);
+    color: var(--gunmetal);
+    line-height: 26px;
+}
+
+.text__button-container button {
+    background-color: var(--light-vermillion);
+    color: var(--offwhite);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 4.38px;
+    padding: 0.75rem 1.25rem;
+    outline: none;
+    border: none;
+    align-self: flex-start;
 }
