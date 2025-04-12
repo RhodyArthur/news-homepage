@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+:root {
+    --dark-space-blue: #00001A;
+    --offwhite: #fffdfa;
+    --gunmetal: #5e607a;
+    --light-vermillion: #f15d51;
+    --silver: #c5c6ce;
+    --yellow: #e9aa52;
+
+    /* fontsizes */
+    --heading-xl: 3.5rem;
+    --heading-l: 2.5rem;
+    --heading-m: 2rem;
+    --heading-s: 1.25rem;
+    --heading-xs: 1.125rem;
+    --body: 0.9375rem;
+}
+
 *, ::before, ::after {
     padding: 0;
     margin: 0;
@@ -8,4 +25,14 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.75rem 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
