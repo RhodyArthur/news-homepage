@@ -82,6 +82,11 @@ h1 {
     outline: none;
     border: none;
     align-self: flex-start;
+    cursor: pointer;
+}
+
+.text__button-container button:hover {
+    background-color: var(--dark-space-blue);
 }
 
 .right-side {
@@ -169,4 +174,64 @@ hr {
 
 .trend .num-details .details h4:hover {
     color: var(--light-vermillion);
+}
+
+@media (min-width: 1024px) {
+    body {
+        gap: 55px;
+        margin: auto;
+        padding: 89px 165px 129px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        gap: 2.5rem;
+    }
+    
+    header nav a {
+        cursor: pointer;
+        font-size: var(--body);
+        color: var(--gunmetal);
+        text-decoration: none;
+    }
+
+    header nav a:hover {
+        color: var(--light-vermillion);
+    }
+
+    main {
+        gap: 71px;
+    }
+
+   .top, .text-container, .trend {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+   }
+
+   .left-side {
+    height: 100%;
+   }
+
+   .left-side img {
+        height: 300px;
+
+   }
+
+   .text-container h1 {
+        font-size: var(--heading-xl);
+        line-height: 56px;
+   }
+
+   .text__button-container {
+        gap: 29px;
+   }
+
+   .bottom {
+    flex-direction: row;
+   }
 }
